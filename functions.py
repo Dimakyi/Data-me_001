@@ -20,7 +20,11 @@ def count_occurrences(lst, element):
     :return: Integer count of occurrences.
     """
     # Implement this
-    return 
+    element = []
+    for i in list:
+        element += 1
+
+    return element
 
 print(count_occurrences())
 def get_keys_with_value(dct, value):
