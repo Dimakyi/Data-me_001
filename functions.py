@@ -115,6 +115,6 @@ def find_common_elements(lst1, lst2):
     # Implement this
     for i in lst1:
         for j in lst2:
-            if i and j in lit2:
+            if i and j in lst2:
                 return j
 print(find_common_elements([1,2,3,4,5,6,7,8,9,10],[1,1,2,3,4,4,5,6,7,7,]))
