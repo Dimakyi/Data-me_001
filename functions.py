@@ -1,4 +1,4 @@
-TODO: Implement the following functions based on the descriptions.
+#TODO: Implement the following functions based on the descriptions.
 
 def reverse_list(lst):
     """
@@ -57,7 +57,7 @@ def find_second_largest(numbers):
     """
     # Implement this
     for i in numbers:
-        if numbers > 8 and numbers <10:
+        if (numbers > 8) and (numbers <10):
             return numbers
 
 print([1,2,3,4,5,6,7,8,9,10])
