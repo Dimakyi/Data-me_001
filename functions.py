@@ -1,4 +1,4 @@
-# TODO: Implement the following functions based on the descriptions.
+TODO: Implement the following functions based on the descriptions.
 
 def reverse_list(lst):
     """
@@ -6,7 +6,11 @@ def reverse_list(lst):
     :param lst: List of integers.
     :return: A list with elements in reverse order.
     """
-    pass  # Implement this
+    # Implement this
+
+    return lst[::-1]
+
+print(reverse_list([1,2,3,4,5,6,7,8,9,10]))   
 
 def count_occurrences(lst, element):
     """
@@ -15,8 +19,10 @@ def count_occurrences(lst, element):
     :param element: Element to count.
     :return: Integer count of occurrences.
     """
-    pass  # Implement this
+    # Implement this
+    return 
 
+print(count_occurrences())
 def get_keys_with_value(dct, value):
     """
     Returns a list of keys that have the given value in the dictionary.
@@ -24,8 +30,10 @@ def get_keys_with_value(dct, value):
     :param value: Value to find.
     :return: List of keys.
     """
-    pass  # Implement this
+    # Implement this
+    return dict.intersect(value)
 
+print(count_occurrences())
 def merge_sorted_lists(lst1, lst2):
     """
     Merges two sorted lists into one sorted list.
@@ -33,7 +41,9 @@ def merge_sorted_lists(lst1, lst2):
     :param lst2: Second sorted list.
     :return: Merged sorted list.
     """
-    pass  # Implement this
+    return sorted(lst1, lst2)
+    # Implement this
+print(merge_sorted_lists([5,2,3,1,7,9,6,4][1,4,7,9,5,4,7,]))
 
 def find_second_largest(numbers):
     """
@@ -41,8 +51,12 @@ def find_second_largest(numbers):
     :param numbers: List of integers.
     :return: The second largest integer.
     """
-    pass  # Implement this
+    # Implement this
+    for i in numbers:
+        if numbers > 8 and numbers <10:
+            return numbers
 
+print([1,2,3,4,5,6,7,8,9,10])
 def is_anagram(str1, str2):
     """
     Checks if two strings are anagrams.
@@ -55,8 +69,13 @@ def is_anagram(str1, str2):
     :param str2: Second string.
     :return: True if the strings are anagrams, False otherwise.
     """
-    pass  # Implement this
+    # Implement this
 
+    string = str1 == str2[::-1]
+    string == string
+    return string
+    
+print(is_anagram("madam", "madam"))
 
 def flatten_list(nested_list):
     """
@@ -64,8 +83,12 @@ def flatten_list(nested_list):
     :param nested_list: List of lists.
     :return: A flat list with all elements.
     """
-    pass  # Implement this
+    # Implement this
+    for i in nested_list:
+        
+        return 
 
+print(flatten_list[1,2,3,4,5,6,[47,8,9,10]])
 
 def remove_duplicates(lst):
     """
@@ -73,7 +96,10 @@ def remove_duplicates(lst):
     :param lst: List of elements.
     :return: List without duplicates.
     """
-    pass  # Implement this
+    # Implement this
+
+    return set(lst)
+print(remove_duplicates(["banana","orange","grapes","banana"]))
 
 def find_common_elements(lst1, lst2):
     """
@@ -82,4 +108,9 @@ def find_common_elements(lst1, lst2):
     :param lst2: Second list.
     :return: List of common elements.
     """
-    pass  # Implement this
+    # Implement this
+    for i in lst1:
+        for j in lst2:
+            if i and j in lit2:
+                return j
+print(find_common_elements([1,2,3,4,5,6,7,8,9,10],[1,1,2,3,4,4,5,6,7,7,]))
